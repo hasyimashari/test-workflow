@@ -22,7 +22,7 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo hello word
+        run: echo "hello word"
 
   run:
     # The type of runner that the job will run on
@@ -34,4 +34,4 @@ jobs:
 
       # Runs a single command using the runners shell
       - name: Run a one-line script
-        run: echo this event triggered by ${{github.actor}}
+        run: echo "this event triggered by ${{github.actor}}"
